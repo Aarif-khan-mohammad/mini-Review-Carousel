@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+  background-image:url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height:100vh;
+  width:100%;
+  display:flex;
+  background-size:cover;
+  align-items:center;
+  justify-content:center;
+}
+
+.review-card{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  
+  width:80%;
+}
+
+.user-image{
+  height:5rem;
+  width:5rem;
+}
+
+.switch{
+  display:flex;
+  gap:8rem;
+  align-items:center;
+}
+
+.left{
+  height:2rem;
+  width:2rem;
+  background-color:transparent;
+  border:none;
+}
+
+.user-name{
+  font-size:1rem;
+  font-family:"Roboto";
+}
+
+.company-name{
+  font-size:0.8rem;
+  font-family:"Roboto";
+  
+}
+
+.description{
+  font-size:0.8rem;
+  font-family:"Roboto";
+  text-align:center;
+}
